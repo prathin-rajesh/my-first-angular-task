@@ -9,7 +9,7 @@ interface Project {
   status: string;
   startDate: string;
   endDate: string;
-  teamSize: number;
+  positionsLeft: number;
   image: string;
 }
 

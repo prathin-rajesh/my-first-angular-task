@@ -19,7 +19,6 @@ export class AuthService {
       this.router.navigate(['/']);
       return true;
     } else if (username === 'user' && password === 'userpassword') {
-      // Dummy credentials for regular user
       this.isAuthenticated = true;
       this.isAdminUser = false;
       localStorage.setItem('isLoggedIn', 'true');
