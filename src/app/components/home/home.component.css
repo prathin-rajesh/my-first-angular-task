@@ -1,0 +1,11 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.description {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  line-height: 1.6;
+}

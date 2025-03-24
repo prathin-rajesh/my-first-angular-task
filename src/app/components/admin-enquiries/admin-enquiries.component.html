@@ -1,0 +1,17 @@
+<div class="admin-container">
+  <h2>User Enquiries</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Email</th>
+        <th>Feedback</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let enquiry of enquiries">
+        <td>{{ enquiry.email }}</td>
+        <td>{{ enquiry.feedback }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

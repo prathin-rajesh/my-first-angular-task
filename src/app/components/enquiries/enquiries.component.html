@@ -1,0 +1,29 @@
+<div class="enquiry-container">
+  <h2>Submit Your Enquiry</h2>
+  <form (submit)="submitEnquiry(); $event.preventDefault()">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        [(ngModel)]="email"
+        name="email"
+        class="form-control"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="feedback">Feedback</label>
+      <textarea
+        id="feedback"
+        [(ngModel)]="feedback"
+        name="feedback"
+        class="form-control"
+        rows="4"
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <p *ngIf="successMessage" class="success">{{ successMessage }}</p>
+  </form>
+</div>

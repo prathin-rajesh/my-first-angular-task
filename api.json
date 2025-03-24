@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Security Engineer",
+      "description": "A machine learning-based cyberbullying detection system that analyzes text input to identify and flag offensive content.",
+      "status": "Active",
+      "startDate": "2021-01-01",
+      "endDate": "2021-01-31",
+      "teamSize": 10,
+      "image": "project1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Asst. Game Developer",
+      "description": "Astral World is an immersive game where players explore a mysterious cosmic realm, uncovering hidden secrets, battling celestial foes, and mastering cosmic powers. Featuring stunning visuals, strategic gameplay, and an engaging storyline, players embark on an epic journey across the stars.",
+      "status": "Inactive",
+      "startDate": "2022-02-01",
+      "endDate": "2022-03-15",
+      "teamSize": 5,
+      "image": "project2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Job 3",
+      "description": "Job 3 description",
+      "status": "Active",
+      "startDate": "2023-04-10",
+      "endDate": "2023-06-20",
+      "teamSize": 8,
+      "image": "project3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Job 4",
+      "description": "Job 4 description",
+      "status": "Completed",
+      "startDate": "2020-07-05",
+      "endDate": "2020-12-31",
+      "teamSize": 12,
+      "image": "project4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Job 5",
+      "description": "Job 5 description",
+      "status": "Active",
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-15",
+      "teamSize": 15,
+      "image": "project5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Job 6",
+      "description": "Job 6 description",
+      "status": "Inactive",
+      "startDate": "2022-03-20",
+      "endDate": "2022-08-25",
+      "teamSize": 6,
+      "image": "project6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Job 7",
+      "description": "Job 7 description",
+      "status": "Completed",
+      "startDate": "2019-11-15",
+      "endDate": "2020-04-30",
+      "teamSize": 20,
+      "image": "project7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Job 8",
+      "description": "Job 8 description",
+      "status": "Active",
+      "startDate": "2024-05-10",
+      "endDate": "2024-09-30",
+      "teamSize": 18,
+      "image": "project8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Job 9",
+      "description": "Job 9 description",
+      "status": "Inactive",
+      "startDate": "2023-01-01",
+      "endDate": "2023-07-31",
+      "teamSize": 10,
+      "image": "project9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Job 10",
+      "description": "Job 10 description",
+      "status": "Completed",
+      "startDate": "2018-06-01",
+      "endDate": "2019-02-15",
+      "teamSize": 25,
+      "image": "project10.jpg"
+    }
+  ]
+}
